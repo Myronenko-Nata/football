@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial";
+    background-color: #8dc63f;
+}
+
+h1 {
+    color: #39930d;
+    font-size: 24px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 960px;
+    background-color: #fff;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cursor {
+    cursor: url(../images/boston\ cursor.svg),default;
+}
+.header {
+    padding: 25px 0;
+}
+
+.logo {
+    column-gap: 34px;
+}
+
+.logo p,
+.contacts a {
+    color: #39930d;
+    font-size: 22px;
+}
+
+.logo b {
+    display: block;
+    color: #39930d;
+    font-size: 44px;
+}
+
+.logo i,
+.contacts i {
+    color: #5a5a5a;
+    font-size: 14px;
+}
+
+.contacts {
+    text-align: right;
+}
+
+.main-img img {
+    width: 100%;
+}
+
+.main {
+    padding: 25px 0 29px;
+}
+
+.main-text {
+    max-width: 594px;
+}
+
+.main-text h1,
+.main-text p {
+    margin-bottom: 17px;
+}
+
+.main-text p {
+    line-height: 1.5em;
+    color: #343434;
+    font-size: 14px;
+}
+
+.menu p {
+    padding: 11px 20px;
+    min-width: 300px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #39930d;
+}
+
+.menu ul {
+    padding: 20px;
+    list-style: none;
+}
+
+.menu a {
+    line-height: 2.1em;
+    color: #39930d;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.footer {
+    margin: 0 -15px;
+    padding: 15px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #39930d;
+}
